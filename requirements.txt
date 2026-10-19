@@ -1,0 +1,12 @@
+# Core runtime dependencies (CPU-only, no downloads required).
+numpy>=1.23
+pandas>=1.5
+scikit-learn>=1.2
+matplotlib>=3.6
+
+# Test dependency.
+pytest>=7.0
+
+# Optional deep-learning backend. Uncomment ONLY this one (do not install both).
+# The pipeline runs fine without it (sklearn MLP reference is always trained).
+#tensorflow>=2.12
